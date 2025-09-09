@@ -1,3 +1,4 @@
+package Aulas3POB;
 import java.util.Scanner;
 
 public class Exercicio1f {

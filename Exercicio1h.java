@@ -1,3 +1,5 @@
+package Aulas3POB;
+
 import java.util.Scanner;
 import java.lang.Math;
 
