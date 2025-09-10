@@ -1,20 +1,22 @@
 import java.util.Scanner;
 
-public class Exercicio3a{
+public class Exercicio3b{
     public static void main(String[] args){
-
-        int sum = 0;
 
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite um numero n: ");
         int n = sc.nextInt();
 
-        for (int i=0; i <= n; i++){
-            sum += i;
-        }
+        int i=1;
+        while (i<=10){
 
-        System.out.println("Soma: " + sum);
+            int result = n*i;
+
+            System.out.print("\n" + n + "*" + i + " = " + result + "\n");
+
+            i++;
+        }
 
         sc.close();
     }
